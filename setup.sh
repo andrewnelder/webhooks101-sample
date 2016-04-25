@@ -3,7 +3,7 @@
 # Install VirtualEnv + VirtualEnv-Wrapper via VirtualEnv-Burrito
 command -v virtualenv >/dev/null 2>&1 || {
   echo >&2 "VirtualEnv is not installed.";
-  curl -sL https://raw.githubusercontent.com/brainsik/virtualenv-burrito/master/virtualenv-burrito.sh | $SHELL;
+  curl -sL https://raw.githubusercontent.com/brainsik/virtualenv-burrito/5b5b27feae7ac5b586d8511e90cab49244688965/virtualenv-burrito.sh | $SHELL;
   source ~/.venvburrito/startup.sh;
 }
 source `which virtualenvwrapper.sh`;
