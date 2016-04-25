@@ -8,7 +8,7 @@ command -v virtualenv >/dev/null 2>&1 || {
 }
 source `which virtualenvwrapper.sh`;
 
-# Install VirtualEnv + VirtualEnv-Wrapper via VirtualEnv-Burrito
+# Install ngrok
 command -v ngrok >/dev/null 2>&1 || {
   echo >&2 "ngrok is not installed.";
   brew install homebrew/binary/ngrok2;
